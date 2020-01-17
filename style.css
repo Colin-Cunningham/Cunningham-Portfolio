@@ -1,0 +1,41 @@
+body {
+    background-color: #02111B;
+    color: white;
+    padding-right: 2%;
+}
+#col2 {
+    margin: 0 auto;
+    padding-top: 13rem;
+}
+
+#col1{
+    padding-top: 20rem;
+}
+
+h1{
+    font-size: 5rem;
+    font-family: 'Poiret One', cursive;
+    font-weight: 1000;
+}
+
+h5 {
+    font-size: 2rem;
+    font-family: 'Cabin Condensed', sans-serif;
+    font-style: oblique;
+    text-decoration: underline;
+}
+/* color: #FF4A1C; */
+#txtBox {
+    background-color: #C8C2AE;
+    height:  30rem;
+}
+
+#menu {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#switch{
+   color: black;
+
+}
