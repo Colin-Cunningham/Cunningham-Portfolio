@@ -363,15 +363,15 @@ li {
      
 }
 #hex1{
-    background-image: url("/Images/project1.png");
+    background-image: url("../Images/project1.png");
 
 }
 #hex2 {
-    background-image: url("/Images/project2.png");
+    background-image: url("../Images/project2.png");
 }
 
 #hex3{
-    background-image: url("/Images/project3.png");
+    background-image: url("../Images/project3.png");
 }
 
 @media only screen and (max-width: 584px) {
