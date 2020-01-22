@@ -29,3 +29,18 @@ $(socialSec).click(function(){
     $(aboutSec).removeClass("active")
     $(resumeSec).removeClass("active")
 })
+
+
+$(function(){
+	$("#modal").click(function(){
+		$(".lay").modal('show');
+	});
+	$(".lay").modal({
+		closable: true
+	});
+});
+
+
+$("#submit").click(function(){
+    alert("Your Message Has been Submitted!")
+})

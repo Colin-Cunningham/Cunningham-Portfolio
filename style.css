@@ -9,9 +9,18 @@ body {
     color: white;
    
 }
+
+#quote {
+  color: #8b7da7;
+  font-weight: 500;
+  font-style: oblique;
+}
+
+
 #col2 {
     margin: 0 auto;
     padding-top: 12rem;
+    
 }
 
 #col1{
@@ -24,16 +33,24 @@ h1{
     font-weight: 1000;
 }
 
-h5 {
+h4 {
     font-size: 2rem;
     font-family: 'Cabin Condensed', sans-serif;
-    font-style: oblique;
     text-decoration: underline;
+    color: #0d0522;
 }
 /* color: #FF4A1C; */
 #txtBox {
     background-color: rgb(202, 203, 230);
-    height:  fit-content;
+    height: fit-content;
+}
+
+#aboutme {
+  font-size: 1.2rem;
+  color: #170b35;
+  font-family: 'Fredoka One', cursive;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: whitesmoke;
 }
 
 .namePlace {
@@ -67,7 +84,7 @@ h5 {
     text-align: center;
 }
 
-#aboutSwitch, #follow{
+#aboutSwitch, #follow, #resumeSwitch{
    color: black;
 }
 
@@ -83,20 +100,32 @@ li {
     display: inline;
    padding-left: 1rem;
    font-size: 2rem;
-   font-style: oblique;
+   
+  }
+
+  #numbers{
+    font-size: 1rem;
+    text-decoration: underline;
+    line-height: 0rem;
+  }
+
+  .inline{
+    display: inline;
+    color: rgb(206, 199, 214);
   }
 
   .header {
-    font-family: 'Cabin Condensed', sans-serif;
+    font-family: 'Poiret One', cursive;
     color: #9395D3;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
 
  form {
     background-color: rgba(199, 211, 212, 0.452);
     width: 45rem;
     margin: 0 auto;
-    margin-top: 8rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
     padding: 2rem;
  }
 
