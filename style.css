@@ -199,7 +199,7 @@ li {
     width: 300px; 
     height: 173.21px;
     margin: 86.60px 0;
-    background-image: url("Images/project1.png");
+
     background-size: auto 334.8632px;
     background-position: center;
     box-shadow: 0 0 40px rgba(0,0,0,0.65);
@@ -363,15 +363,15 @@ li {
      
 }
 #hex1{
-    background-image: url(../Images/project1.png);
+    background-image: url(../images/project1.png);
 
 }
 #hex2 {
-    background-image: url(../Images/project2.png);
+    background-image: url(../images/project2.png);
 }
 
 #hex3{
-    background-image: url(../Images/project3.png);
+    background-image: url(../images/project3.png);
 }
 
 @media only screen and (max-width: 584px) {
