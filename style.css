@@ -19,7 +19,7 @@ body {
 
 #col2 {
     margin: 0 auto;
-    padding-top: 12rem;
+    padding-top: 6rem;
     
 }
 
@@ -46,7 +46,7 @@ h4 {
 }
 
 #aboutme {
-  font-size: 1.2rem;
+  font-size: 1.05rem;
   color: #170b35;
   font-family: 'Fredoka One', cursive;
   -webkit-text-stroke-width: .5px;
