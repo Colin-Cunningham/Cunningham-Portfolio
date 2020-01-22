@@ -362,7 +362,7 @@ li {
         }
      
 }
-#hex1{
+/* #hex1{
     background-image: url(../images/project1.png);
 
 }
@@ -372,7 +372,7 @@ li {
 
 #hex3{
     background-image: url(../images/project3.png);
-}
+} */
 
 @media only screen and (max-width: 584px) {
     
