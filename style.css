@@ -100,7 +100,6 @@ li {
     display: inline;
    padding-left: 1rem;
    font-size: 2rem;
-   
   }
 
   #numbers{
@@ -118,6 +117,9 @@ li {
     font-family: 'Poiret One', cursive;
     color: #9395D3;
     font-size: 1.4rem;
+    border-style: solid;
+    border-width: .08rem;
+    border-color: rgba(188, 189, 223, 0.329);
   }
 
  form {
