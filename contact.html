@@ -23,32 +23,26 @@
   <div id="navBar">
     <ul>
       <li><a class="header" href="index.html">Home</a></li>
-      <li style="float:right"><a class="header" href="projects.html">Projects</a></li>
-      <li style="float:right"><a class="header" href="contact.html">Contact Me</a></li>
+      <!-- <li style="float:right"><a class="header" href="projects.html">Projects</a></li>
+      <li style="float:right"><a class="header" href="contact.html">Contact Me</a></li> -->
     </ul>
   </div>
 </header>
 
 <div class="ui container">
     
-<form class="ui form">
-    <div class="field">
-      <p class="plate">Name</p>
-      <input type="text" name="first-name" placeholder="Name">
-    </div>
-    <div class="field">
-      <p class="plate">Email</p>
-      <input type="text" name="last-name" placeholder="Email">
-    </div>
-    <div class="ui form">
-        <div class="field">
-          <p class="plate">Message</p>
-          <textarea></textarea>
-        </div>
-    <a id="submit" class="ui button" href="contact.html">Submit</a>
-  </form>
-</div>
-
+  <form action="mailto:colin.199643@gmail.com" method="post" enctype="text/plain">
+    Name:<br>
+    <input type="text" name="name"><br>
+    E-mail:<br>
+    <input type="text" name="mail"><br>
+    Comment:<br>
+    <input type="text" name="comment" size="50"><br><br>
+    <input type="submit" value="Send">
+    <input type="reset" value="Reset">
+    </form>
+    
+</form>
 
 
 

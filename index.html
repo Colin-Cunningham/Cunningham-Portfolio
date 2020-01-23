@@ -19,12 +19,11 @@
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
 <body>
+<div id="fold">
 <header>
   <div id="navBar">
     <ul>
-      <li><a class="header" href="index.html">Home</a></li>
-      <li style="float:right"><a class="header"  href="projects.html">Projects</a></li>
-      <li style="float:right"><a class="header"  href="contact.html">Contact Me</a></li>
+      <!-- <li style="float: right;margin-top: 1rem;"><div id='numbers'> <a href="tel:860-331-3329"  class="inline">(860)-331-3329 |</a>     <a href="mailto:colin.199643@gmail.com" class="inline">Colin.199643@gmail.com</a></div></li> -->
     </ul>
   </div>
 </header>
@@ -35,57 +34,142 @@
    <div id="col2" class= "column">
     <div id="txtBox" class="ui raised container segment">
       <div id="menu" class="ui text menu">
-        <a id="about" class="item active">
-          About Me
-        </a>
-        <a id="resume" class="item "> 
-          Resumé
-        </a>
-        <a id="social" class="item">
-          Socials
-        </a>
+        <h4>Colin Cunningham</h4>
       </div>
       <div id="aboutSwitch" > 
-        <h4>Colin Cunningham</h4>
           <img class="ui small left floated image" src="Images/social.jpeg">
           <p id="aboutme">Hello! My name is Colin and I am a full-stack web developer. I am originally from a small town in Connecticut but now reside just south of Philadelphia. I attended Choate Rosemary Hall before getting my BA in political science from Muhlenberg College in Allentown PA. I currently work as a college and career coach at Overbrook High school in West Philly, and to answer your question yes it is the school from the fresh prince song. I am an ex-football player who has seen every Marvel movie ten times. I have found a passion for web-developing that has consumed my everyday life, and makes me eager to learn more. I am currently seeking employment opportunities and would love to chat about it. 
           </p>
-          <h5>Feel free to contact me anytime! (Info at bottom of page)
-          </h5>
+          
     </div>
-    <div class="hide" id="resumeSwitch">
-      <img class="ui medium centered image" id="modal" src="Images/CCunningham-Resume.jpg" alt="Screenshot of Resume"> 
-      <p style="font-size: .8rem; text-align: center;">Click Image to Zoom</p>
-      <h3 style="text-align: center;"> <a href="CCunningham-Resume.pdf" download>Pdf Download</a> </h3>
-      <div class="ui modal lay">
-        <i class="close icon"></i>
-        <div class="image content">
-          <div class="ui extra-large centered image">
-            <img src="Images/CCunningham-Resume.jpg">
-          </div>
+   
+    </div>
+  </div>
+</div>
+<div id="afterFold">
+  <h1 style="color: #240c4b; text-align: center; font-family: 'Ardvo', sans-serif; font-size: 2.8rem;">Resumé & Experience</h1>
+  <div class="ui three column doubling stackable grid container">
+    <div id="col1" class="column">
+      <div class="ui raised container segment">
+      <h3>What do I know?</h3>
+      <p>Full-stack Web Developer with a background in political science and a passion for honing knowledge in the field of computer science. Utilizes excellent interpersonal skills to better connect with clients and administration and bring out the best qualities in people. Currently attending the Trilogy coding bootcamp at Upenn LPS. Proficient in JavaScript, CSS, HTML, and Node.js, specializing in using third-party API’s to develop useful, mobile friendly applications. 
+        Finding ways to make a real-life impact on people who need it most is the ultimate goal of my web developing career. Positioned to leverage technical skills and a goal oriented mindset to become a powerful addition to any workplace. 
+        </p>
+    </div>
+  </div>
+   <div id="col2" class= "column">
+      <div class="" id="resumeSwitch">
+        <img class="ui centered image" id="modal" src="Images/CCunningham-Resume.jpg" alt="Screenshot of Resume"> 
+        <p style="font-size: .8rem; text-align: center;">Click Image to Zoom</p>
+        <h5 style="text-align: center; margin-top: -4px;"> <a href="CCunningham-Resume.pdf" download>PDF Download</a> </h3>
+        <div class="ui modal lay">
+          <i class="close icon"></i>
+          <div class="image content">
+            <div class="ui extra-large centered image">
+              <img src="Images/CCunningham-Resume.jpg">
+            </div>
+        </div>
+       </div>
+      </div>    
+  </div>
+  <div id="col1" class="column">
+    <div id="tech" class="ui raised container segment">
+    <h3>Languages and Applications</h3>
+   <div class="ui two column grid container">
+    <div class="column" id="Pics1">
+      <img class="ui top aligned tiny image" src="Images/javascript-seeklogo.com.svg">
+
+    <div class="ui divider"></div>
+    <img class="ui middle aligned tiny image" src="Images/jquery-seeklogo.com.svg">
+
+    <div class="ui divider"></div>
+    <img class="ui bottom aligned tiny image" src="Images/nodejs-seeklogo.com.svg">
+
+    </div>
+    <div class="column" id="Pics2">
+      <img class="ui top aligned tiny image" src="Images/html5-with-wordmark-color-logo-4259B7F24F-seeklogo.com.png">
+
+    <div class="ui divider"></div>
+    <img class="ui middle aligned tiny image" src="Images/css-3-logo-AF06D75231-seeklogo.com.png">
+
+    </div>
+    </div> 
+
+  </div>
+</div>
+</div>
+ 
+
+
+
+</div>
+
+ <div id="endFold">
+  <h1 style="text-align:center">Projects</h1>
+<div id="holder" class="ui three column doubling grid container">
+    <div id="col3" class="column">
+        <div id="hex1" style="background-image: url(Images/Project1.png)" class="hexagon">
+            <div class="hexTop"></div>
+            <div class="hexBottom"></div>
+            <div class="namePlace"> 
+                <p class="title">Weather App</p>
+                <span class="links">
+                    <a class="links" target= "_blank" href="https://colin-cunningham.github.io/Weather-App.github.io/">Deployed Website  |</a>
+                    <a class="links" target="_blank" href="https://github.com/Colin-Cunningham/Weather-App.github.io">Repository</a>
+                </span>
+            </div>
+        </div>
+    </div>
+   <div id="col4" class= "column">
+    <div id="hex2" style="background-image: url(Images/Project2.png)" class="hexagon">
+        <div class="hexTop"></div>
+        <div class="hexBottom"></div>
+        <div class="namePlace"> 
+            <p class="title">Marvel Quiz</p>
+            <span>
+                <a class="links" target= "_blank" href="https://colin-cunningham.github.io/Coding-Quiz.github.io/">Deployed Website  |</a>
+                <a class="links" target="_blank" href="https://github.com/Colin-Cunningham/Coding-Quiz.github.io">Repository</a>
+            </span>
+        </div>
       </div>
-     </div>
-    </div>
-    <div class="hide" id="socialSwitch">
-      <h5 id="follow">Follow Me On</h5>
-      <a target="_blank" href="https://www.linkedin.com/in/colin-cunningham-094181127/" class="ui linkedin button">
-        <i class="linkedin icon"></i>
-        LinkedIn
-      </a>
-      <br>
+ </div>
+ <div id="col5" class= "column">
+    <div id="hex3" style="background-image: url(Images/Project3.png)" class="hexagon">
+        <div class="hexTop"></div>
+        <div class="hexBottom"></div>
+        <div class="namePlace"> 
+            <p class="title">Where Do You Want to Eat? App</p>
+            <span >
+                <a class="links" target= "_blank" href="https://mms211.github.io/What-Do-You-Want-To-Eat-App/">Deployed Website  |</a>
+                <a class="links" arget="_blank" href="https://github.com/mms211/What-Do-You-Want-To-Eat-App">Repository</a>
+            </span>
+        </div>
+      </div>
+      
+ </div>
+</div>
+</div>
 
-    <a class="github-button" href="https://github.com/Colin-Cunningham" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" aria-label="Follow @Colin-Cunningham on GitHub">Follow @Colin-Cunningham</a>
-    </div>
-    </div>
-  </div>
+<div id="quote">
+  <h1 id="qTxt">“Everybody is identical in their secret unspoken belief that way deep down they are different from everyone else.”
+    ― David Foster Wallace</h1>
+</div>
 
-  <div class="footer">
-    <p id="quote">“Everybody is identical in their secret unspoken belief that way deep down they are different from everyone else.”
-      ― David Foster Wallace</p>
+<div id="footer">
+
+  <div class="hide" id="socialSwitch">
     <div id='numbers'> <a href="tel:860-331-3329"  class="inline">(860)-331-3329 |</a>     <a href="mailto:colin.199643@gmail.com" class="inline">Colin.199643@gmail.com</a></div>
-  </div>
-     
 
+    <a target="_blank" href="https://www.linkedin.com/in/colin-cunningham-094181127/" class="ui linkedin button">
+      <i class="linkedin icon"></i>
+      LinkedIn
+    </a>
+    <br>
+
+  <a class="github-button" href="https://github.com/Colin-Cunningham" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" aria-label="Follow @Colin-Cunningham on GitHub">Follow @Colin-Cunningham</a>
+  </div>
+
+</div>
 
 </body>
 <!--Personal Script-->

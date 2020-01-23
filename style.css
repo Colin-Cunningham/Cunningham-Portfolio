@@ -7,13 +7,69 @@ body {
     background: radial-gradient( #240c4b 10%, #0d0522 49%, rgb(18, 2, 31) 82%);
     background-size: 100%;
     color: white;
-   
+    background-repeat: none;
+}
+#fold {
+  background-color: rgb(1, 9, 14) ;
+  background: radial-gradient( #240c4b 10%, #0d0522 49%, rgb(18, 2, 31) 82%);
+  background-size: 100%;
+  color: white;
+  background-repeat: none;
+
+}
+#Pics1 {
+  width: 50%;
+  
+}
+#tech{
+  height: fit-content
+}
+#Pics2 {
+  width: 50%;
+}
+.title {
+  color: #f5f3fa;
+  font-weight: 700;
+}
+p {
+  color: #0d0522;
+}
+h3{
+  font-family: 'Fredoka One', cursive;
+  color: #0d0522;
+}
+#afterFold {
+  background-color: whitesmoke;
+  width: 100% ;
+  height: fit-content;
+  border-top-style: inset;
+  border-color: rgb(1, 9, 14) ;
+  border-width: 5px
+}
+
+#modal {
+  border-style: outset;
+  border-width: .2rem;
+  border-color: rgba(0, 0, 0, 0.418);
+  width: 80%;
+  margin-top: -4rem;
+}
+
+#endFold {
+  background-color: rgba(202, 203, 230, 0.664);
+  width: 100%;
+  height: fit-content;
+  
 }
 
 #quote {
   color: #8b7da7;
   font-weight: 500;
   font-style: oblique;
+  background-attachment: fixed;
+  background-image: url("https://giphy.com/embed/BHNfhgU63qrks");
+  padding: 5rem;
+  text-align: center;
 }
 
 
@@ -43,6 +99,7 @@ h4 {
 #txtBox {
     background-color: rgb(202, 203, 230);
     height: fit-content;
+    margin-bottom: 1rem;
 }
 
 #aboutme {
@@ -78,34 +135,20 @@ h4 {
     color: #9395D3;
     font-size: 1.3rem;
 }
-
+#qTxt{
+  font-size: 2rem;
+}
 #menu {
     margin: 0 auto;
     text-align: center;
 }
 
-#aboutSwitch, #follow, #resumeSwitch{
-   color: black;
-}
-
-.hide {
-    display: none;
-}
-
-ul{
-    margin-right: 15%;
-   
-}
-li {
-    display: inline;
-   padding-left: 1rem;
-   font-size: 2rem;
-  }
 
   #numbers{
     font-size: 1rem;
     text-decoration: underline;
     line-height: 0rem;
+    margin-bottom: 1rem;
   }
 
   .inline{
@@ -136,18 +179,12 @@ li {
     font-size: 1.2rem;
     -webkit-text-stroke-width: .7px;
     -webkit-text-stroke-color: black;
-    color: white
+    color: black
  }
 
- #navBar {
-     border-bottom-style: double;
-     border-width: 1rem;
-     border-color: rgba(202, 203, 230, 0.664) ;
-     width: 112%;
- }
 
- .footer {
-    margin-top: 3rem;
+
+ #footer {
     left: 0;
     bottom: 0;
     width: 100%;
@@ -155,7 +192,7 @@ li {
     color: white;
     text-align: center;
     padding: 1rem;
-    border-radius: 1rem;
+   
     
  }
 
@@ -193,6 +230,8 @@ li {
 
 #holder {
    padding-left: 2rem;
+
+   margin-bottom: 0rem;
 }
 
 /* taken from https://csshexagon.com/ as well as the smaller breakpoint*/
@@ -362,7 +401,11 @@ li {
             font-size: .6rem;
            
         }
-     
+    
+#modal {
+
+  margin-top: -1rem;
+}
 }
 /* #hex1{
     background-image: url(../images/project1.png);
