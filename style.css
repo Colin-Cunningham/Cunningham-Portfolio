@@ -59,6 +59,7 @@ h3{
   background-color: rgba(202, 203, 230, 0.664);
   width: 100%;
   height: fit-content;
+  padding-bottom: 1rem;
   
 }
 
@@ -66,10 +67,12 @@ h3{
   color: #8b7da7;
   font-weight: 500;
   font-style: oblique;
-  background-attachment: fixed;
-  background-image: url("https://giphy.com/embed/BHNfhgU63qrks");
+  width: 55%;
+  background-image: url('Images/76YM.gif') ;
   padding: 5rem;
   text-align: center;
+  position: relative;
+  margin: 0 auto;
 }
 
 
@@ -137,7 +140,15 @@ h4 {
 }
 #qTxt{
   font-size: 2rem;
+  position: relative;
+  z-index: 1;
+  -webkit-text-stroke-width: .8px;
+  -webkit-text-stroke-color: black;
+  color:rgb(209, 203, 203);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
+
 #menu {
     margin: 0 auto;
     text-align: center;
