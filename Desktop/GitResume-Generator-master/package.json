@@ -1,0 +1,21 @@
+{
+  "name": "gitresume-generator-master",
+  "version": "1.0.0",
+  "description": "Package for generating HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "GitResume-Generator"
+  },
+  "keywords": [
+    "Questions"
+  ],
+  "author": "Colin Cunningham",
+  "license": "ISC",
+  "dependencies": {
+    "github-api": "^3.3.0"
+  }
+}
