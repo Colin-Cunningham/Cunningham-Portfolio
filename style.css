@@ -91,6 +91,12 @@ h1{
     font-family: 'Poiret One', cursive;
     font-weight: 1000;
 }
+h2{
+  text-align: center;
+  font-family: 'Cabin Condensed', sans-serif;
+  color: whitesmoke;
+  text-decoration: underline;
+}
 
 h4 {
     font-size: 2rem;
