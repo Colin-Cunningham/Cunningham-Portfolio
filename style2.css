@@ -60,7 +60,11 @@ p{
     margin: 0 auto;
 }
 
-
+.cool{
+    color: black;
+    font-size: 1.8rem;
+    text-decoration: underline;
+}
 @media only screen and (max-width: 414px) {
     .image{
         width: 100%;
