@@ -46,7 +46,7 @@ p{
 
 #cards{
     width: 30rem;
-    margin: 1.25rem;
+    margin: .8rem;
 }
 
 .image{
@@ -57,13 +57,20 @@ p{
 
 #afterfold{
     padding: 2rem;
+    padding-left: 4rem;
     margin: 0 auto;
 }
 
 .cool{
     color: black;
-    font-size: 1.8rem;
+    font-size: 1rem;
     text-decoration: underline;
+    text-align: center;
+}
+
+.content{
+    text-align: center;
+    margin: 0 auto;
 }
 @media only screen and (max-width: 414px) {
     .image{
